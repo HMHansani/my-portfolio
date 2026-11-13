@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import './App.css'
+import Skills from './components/Skills'
 
 function App() {
   const [activePage, setActivePage] = useState('home')
@@ -20,6 +21,7 @@ function App() {
       )}
 
       {activePage === 'about' && <About />}
+      {activePage === 'skills' && <Skills />}
     </>
   )
 }
