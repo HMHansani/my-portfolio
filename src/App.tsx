@@ -5,6 +5,7 @@ import About from './components/About'
 import './App.css'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
   const [activePage, setActivePage] = useState('home')
@@ -24,6 +25,7 @@ function App() {
       {activePage === 'about' && <About />}
       {activePage === 'skills' && <Skills />}
       {activePage === 'projects' && <Projects />}
+      {activePage === 'contact' && <Contact />}
     </>
   )
 }
