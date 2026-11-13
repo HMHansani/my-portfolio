@@ -9,7 +9,6 @@ function Contact() {
       </p>
 
       <div className="contact-container">
-
         <div className="contact-info">
           <h2>Get In Touch</h2>
 
@@ -24,32 +23,25 @@ function Contact() {
           <p>
             <strong>Location:</strong> Sri Lanka
           </p>
+
+          <p>
+            <strong>GitHub:</strong>{" "}
+            <a
+              href="https://github.com/HMHansani"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit My GitHub
+            </a>
+          </p>
         </div>
 
         <form className="contact-form">
-          <input
-            type="text"
-            placeholder="Your Name"
-            required
-          />
-
-          <input
-            type="email"
-            placeholder="Your Email"
-            required
-          />
-
-          <textarea
-            placeholder="Your Message"
-            rows={5}
-            required
-          />
-
-          <button type="submit">
-            Send Message
-          </button>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows={5} required />
+          <button type="submit">Send Message</button>
         </form>
-
       </div>
     </section>
   )
