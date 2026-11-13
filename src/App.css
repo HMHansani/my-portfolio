@@ -151,15 +151,20 @@ html {
   line-height: 2;
 }
 
-.about-content button {
+.download-cv-btn {
+  display: inline-block;
   padding: 12px 25px;
   margin-top: 15px;
   background-color: #38bdf8;
   color: #0f172a;
-  border: none;
+  text-decoration: none;
   border-radius: 5px;
-  cursor: pointer;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.download-cv-btn:hover {
+  background-color: #0ea5e9;
 }
 
 .about-content button:hover {

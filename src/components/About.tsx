@@ -31,7 +31,13 @@ function About() {
             <li>Problem Solving</li>
           </ul>
 
-          <button>Download CV</button>
+        <a
+            href="/Dinushi_CV.pdf"
+            download="Dinushi_Hansani_CV.pdf"
+            className="download-cv-btn"
+        >
+            Download CV
+        </a>
         </div>
       </div>
     </section>
