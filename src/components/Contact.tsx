@@ -1,4 +1,3 @@
-
 function Contact() {
   return (
     <section className="contact" id="contact">
@@ -13,11 +12,17 @@ function Contact() {
           <h2>Get In Touch</h2>
 
           <p>
-            <strong>Email:</strong> example@gmail.com
+            <strong>Email:</strong>{" "}
+            <a href="mailto:dinushipriyahansani3@gmail.com">
+              dinushipriyahansani3@gmail.com
+            </a>
           </p>
 
           <p>
-            <strong>Phone:</strong> +94 77 123 4567
+            <strong>Phone:</strong>{" "}
+            <a href="tel:+94741763530">
+              +94 74 176 3530
+            </a>
           </p>
 
           <p>
