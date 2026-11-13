@@ -109,3 +109,27 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 0;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  display: block;
+}
+
+#root {
+  max-width: none;
+  padding: 0;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
